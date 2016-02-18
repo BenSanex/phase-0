@@ -1,4 +1,5 @@
-![Site Map](/imgs/site-map.png)
+![SiteMap](week-2/imgs/site-map.png)
+
 What are the 6 phases of web design?
 
     1. Information Gathering - Define the purpose of the site and what type of content you will have on the site
