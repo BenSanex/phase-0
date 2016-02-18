@@ -1,6 +1,6 @@
-![IndexWireframe](/imgs/wireframe-index.png)
+![IndexWireframe](imgs/wireframe-index.png)
 
-![BlogIndex](/imgs/wireframe-index.png)
+![BlogIndex](/week-2/imgs/wireframe-index.png)
 
 
 What is a wireframe?
