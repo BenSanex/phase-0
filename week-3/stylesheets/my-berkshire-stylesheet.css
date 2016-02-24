@@ -1,0 +1,79 @@
+ul {
+   -moz-column-count: 2;
+   -moz-column-gap: 60px;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 60px;
+   column-count: 2;
+   column-gap: 60px;
+}
+
+body {
+  color:#000080;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+html {
+background-color: #ffffff;
+}
+
+li p {
+  color:#000000;
+  font-size:8px;
+}
+h1 {
+  font-weight:bold;
+  font-size:28px;
+  text-align:center;
+}
+
+h3
+  {
+    white-space:pre-line;
+    text-align:center;
+    border-bottom:1px ridge black;
+  }
+  .big  {
+    font-size:32px;
+  }
+  footer {
+    text-align:center;
+    
+  }
+  #geico {
+    border-top:1px ridge black;
+    border-bottom:1px ridge black;
+  }
+  #disclaimer  {
+    border-top:1px ridge black;
+  }
+  
+  /** 
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  
+  The most important part is the relative pathing, you want to use relative as opposed to absolute so you don't have to change it every time you move the folder that the files are in.
+  
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+  This was one of the easier sites to position. We didn't have anything complicated to align, and in CSS3 there is a column-count tag that made positioning the links a breeze.
+  Normally positioning in CSS is my LEAST favorite thing about web design.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+  We used font-size, font-weight to bold, text-align to center the text on the page, color, border, and the newest one I learned was white-space, which alters the way the text is displayed based on how you type in into the HTML.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+  We used a couple of classes and ids, because we needed to distinguish between the GEICO section and the disclaimer section.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  
+  Our code was much cleaner.  Having sytling in the site itself is extremely inefficient and if you needed to copy the styling to multiple pages you would have to type it all in again, instead of just linking to the same stylesheet over and over.
+  
+/
