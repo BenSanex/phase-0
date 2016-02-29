@@ -1,6 +1,6 @@
-![Challenge 1](imgs/challenge1.png)
+![Challenge 1](imgs/Challenge1.png)
 
-![Challenge 2](imgs/challenge2.png)
+![Challenge 2](imgs/Challenge2.png)
 
 ![Challenge 3](imgs/challenge3.png)
 
