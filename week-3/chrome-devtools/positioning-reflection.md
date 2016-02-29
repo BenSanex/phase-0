@@ -1,7 +1,20 @@
 ![Challenge 1](imgs/challenge1.png)
 
+![Challenge 2](imgs/challenge2.png)
 
+![Challenge 3](imgs/challenge3.png)
 
+![Challenge 4](imgs/challenge4.png)
+
+![Challenge 5](imgs/challenge5.jpg)
+
+![Challenge 6](imgs/challenge6.jpg)
+
+![Challenge 7](imgs/challenge7.jpg)
+
+![Challenge 8](imgs/challenge8.jpg)
+
+![Challenge 9](imgs/challenge9.jpg)
 
 How can you use Chrome's DevTools inspector to help you format or position elements?
 
