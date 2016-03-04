@@ -39,8 +39,22 @@ end
 
 # 5. sentence_maker initial solution
 
+
 def sentence_maker(array)
-  p array.join(' ').capitalize << "."
+	sentence = ""
+
+	for i in 0..(array.length - 1)
+		
+		sentence = sentence + array[i]
+
+		if i < (array.length - 1)
+			sentence = sentence + " "
+		else
+			sentence = sentence  + "."
+		end
+	end
+
+	p sentence.capitalize
 end
 
 sentence_maker(["Challenge","complete"])
@@ -48,3 +62,6 @@ sentence_maker(["Challenge","complete"])
 
 # 6. sentence_maker refactored solution
 
+def sentence_maker(array)
+  p array.join(' ').capitalize << "."
+end
