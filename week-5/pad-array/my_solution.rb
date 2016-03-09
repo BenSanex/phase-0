@@ -83,3 +83,29 @@ end
 
 
 # 4. Reflection
+=begin
+Were you successful in breaking the problem down into small steps?
+I felt our pseudocode was better than I've done in the past because we had a very
+clear outline of how we were going to develop each method.
+
+Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+Since we broke down exactly what we were going to use, all we had to do was turn it into ruby syntax.
+We had trouble when we tried to create a new array, we initially just said newarray = array, but we needed to
+say newarray = Array.new(array), which made a significant difference to the original.
+
+Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+  We were successful quite quickly, our problems all arose from assigning the new array to = the old array.
+
+When you refactored, did you find any existing methods in Ruby to clean up your code?
+Instead of using push, we used <<, but we felt our code was pretty clean as it was.
+
+How readable is your solution? Did you and your pair choose descriptive variable names?
+newArray should be clear that it is not the original array. That was the only new variable we needed to declare.
+
+What is the difference between destructive and non-destructive methods in your own words?
+Destructive methods modify the original array or object, non-destructive have no effect on the original.
+
+=end
+
+
+
