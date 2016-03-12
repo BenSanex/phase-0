@@ -20,6 +20,7 @@
 # 	Insert comma every 3 digits and output result
 
 # 1. Initial Solution
+
 def separate_comma(integer)
 	integer = integer.to_s
 	i = -4
@@ -35,7 +36,17 @@ def separate_comma(integer)
 end
 
 # 2. Refactored Solution
-
+def separate_comma(integer)
+	integer = integer.to_s
+	i = -4
+	unless integer.length <= 3
+		while i.abs <= integer.length
+			integer.insert(i,",")
+			i -= 4
+		end
+	end
+	p integer
+end
 
 
 
@@ -52,13 +63,13 @@ Was your pseudocode effective in helping you build a successful initial solution
 It helped me keep focused on each step before worrying about the part of the method that I didn't know how to do, which was inserting the commas.
 
 What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
-I didn't refactor my code. I learned the insert method when researching my initial solution, and I while looking for alternates I only found longer options or options that required Rails or something called regex.
+I learned the insert method when researching my initial solution, and I while looking for alternates I only found longer options or options that required Rails or something called regex, neither of which I know how to use yet.
+I simply replaced my if string with an unless so I only had to p integer once.
 
 How did you initially iterate through the data structure?
 I .insert()'ed every 4 characters while I was within the .length of the string.
 
 Do you feel your refactored solution is more readable than your initial solution? Why?
-I felt my solution was easier to read than any solution I found on the internet.
-
+I think if you can understand unless vs if, the refactored solution is better, but it could be harder to read.
 
 =end
