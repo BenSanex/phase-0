@@ -45,6 +45,7 @@ var knight = {
 // 	damage:Math.floor(Math.random() * 2) + 1,
 // 	returnDamage:Math.floor(Math.random() * 2) + 1
 // }
+
 chooseWeapon = function(choice) {
 	knight.weapon = choice
 	console.log("Equipped the " + choice.name + "!")
