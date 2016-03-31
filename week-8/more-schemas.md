@@ -1,7 +1,7 @@
-![One-to-one](/imgs/one_to_one.png)
+![One-to-one](imgs/one_to_one.png)
 This is a one to one relationship because each individual article of could have a size, but since not all have sizes it makes sense to have a separate table for them.
 
-![Many-to-many](/imgs/many_to_many.png)
+![Many-to-many](imgs/many_to_many.png)
 
 What is a one-to-one database?
 A one to one database is a database where each item in one table has at most one corresponding item in a second table.
